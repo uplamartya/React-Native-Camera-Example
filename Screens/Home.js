@@ -7,6 +7,7 @@ class App extends React.Component {
   };
 
   render() {
+    //Fetch data from previous Screen
     let photo = this.props.navigation.getParam("photo", "empty");
 
     console.log("IN HOME!!, ", photo);
@@ -24,6 +25,7 @@ class App extends React.Component {
         <Button
           title="Take Photo"
           style={Styles.button}
+          //Navigating to Camera Screen
           onPress={() => this.props.navigation.navigate("CameraSc")}
         />
       </View>

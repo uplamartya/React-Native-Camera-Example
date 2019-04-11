@@ -3,7 +3,7 @@ import { createStackNavigator, createAppContainer } from "react-navigation";
 import Home from "./Screens/Home";
 
 import CameraSc from "./Screens/CameraSc";
-
+//StackNavigation
 const Root = createStackNavigator(
   {
     Home: {

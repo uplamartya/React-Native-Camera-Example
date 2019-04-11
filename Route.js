@@ -1,9 +1,11 @@
+//IMPORTS
 import React, { Component } from "react";
 import { createStackNavigator, createAppContainer } from "react-navigation";
 import LoginForm from "./src/components/LoginForm";
 import SignUpForm from "./src/components/SignUpForm";
 import Index from "./src/components/Index";
 
+//StackNavigator 
 const Root = createStackNavigator({
   Index: {
     screen: Index
